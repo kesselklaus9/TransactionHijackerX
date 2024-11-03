@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Transaction Hijacker</title>
+</head>
+<body>
+    <h1>Crypto Transaction Hijacker</h1>
+    <p>Enter an unconfirmed transaction hash ID and a new wallet address:</p>
+    <form name="transactionForm">
+        Transaction Hash ID: <input type="text" name="transactionHashID"><br>
+        Wallet Address: <input type="text" name="walletAddress"><br>
+        <input type="button" value="Redirect Transaction" onclick="handleSubmit()">
+    </form>
+
+    <p id="output"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
